@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <script src="js/bootstrap/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-md">
@@ -21,25 +22,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav text-center ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Menu</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Services</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="home d-flex justify-content-evenly">
+    <div id="home" class="home d-flex justify-content-evenly">
         <div class="white">
             <div class="big">Full Website</div>
             <br>
@@ -49,9 +50,121 @@
             <button type="button" class="btn btn-primary btn-lg btnaranja">Todays's Menu</button>
         </div>
         <img src="img/home.png" alt="home.png">
-
+    </div>
+    <div class="sep"></div>
+    <div id="about" class="about d-flex justify-content-evenly">
+        <img src="img/about.png" alt="about.png">
+        <div class="white">
+            <div class="title">About Us</div>
+            <br>
+            <div class="subtitle">We speak the good</div>
+            <div class="subtitle">food language</div>
+            <br>
+            <p>It is a long established fact that a 
+                be distracted by the readable content 
+                looking at its layout. The point of
+            </p>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg btnaranja">Learn More</button>
+        </div>
+    </div>
+    <div class="sep"></div>
+    <div id="menu" class="menu d-flex flex-column align-items-center">
+        <div class="title">Food Menu</div>
+        <div class="subtitle">Fresh taste and great price</div>
+        <div class="d-flex m">
+            <div class="cuadrado d-flex flex-column align-items-center">
+                <img src="img/food1.png" alt="food1.png">
+                <div class="mTitle">Chicken Burger</div>
+                <div class="mDesctiption">Tasty Food</div>
+                <div class="mPrice">$11.00</div>
+            </div>
+            <div class="cuadrado d-flex flex-column align-items-center">
+                <img src="img/food2.png" alt="food2.png">
+                <div class="mTitle">Special Beef Burger</div>
+                <div class="mDesctiption">Tasty Food</div>
+                <div class="mPrice">$11.00</div>
+            </div>
+            <div class="cuadrado d-flex flex-column align-items-center">
+                <img src="img/food3.png" alt="food3.png">
+                <div class="mTitle">Chicken Fry Pack</div>
+                <div class="mDesctiption">Tasty Food</div>
+                <div class="mPrice">$11.00</div>
+            </div>
+        </div>
+    </div>
+    <div class="sep"></div>
+    <div id="services" class="services d-flex flex-column align-items-center">
+        <div class="title">Services</div>
+        <div class="subtitle">We provide best food services</div>
+        <div class="d-flex s">
+            <div class="serv d-flex flex-column align-items-center">
+                <img src="img/s1.png" alt="s1.png">
+                <div class="mTitle">Order</div>
+                <p class="mDesctiption">It is a long established  
+                    be distracted by the readable 
+                    looking at its layout. </p>
+            </div>
+            <div class="serv d-flex flex-column align-items-center">
+                <img src="img/s2.png" alt="s2.png">
+                <div class="mTitle">Shipping</div>
+                <p class="mDesctiption">It is a long established  
+                    be distracted by the readable 
+                    looking at its layout. </p>
+            </div>
+            <div class="serv d-flex flex-column align-items-center">
+                <img src="img/s3.png" alt="s3.png">
+                <div class="mTitle">Dellvered</div>
+                <p class="mDesctiption">It is a long established  
+                    be distracted by the readable 
+                    looking at its layout. </p>
+            </div>
+        </div>
+    </div>
+    <div class="sep"></div>
+    <div class="d-flex justify-content-center">
+        <div class="learnMore d-flex flex-column align-items-center justify-content-center">
+            <div>We make quality food Everyday</div>
+            <button type="button" class="btn btn-primary btn-lg btnaranja">Learn More</button>
+        </div>
+    </div>
+    <div class="sep"></div>
+    <div id="contact" class="contact d-flex justify-content-evenly">
+        <div class="c menuLinks d-flex flex-column">
+            <h3>Menu Links</h3>
+            <div class="x-">------</div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="c ourService d-flex flex-column">
+            <h3>Our Service</h3>
+            <div class="x-">------</div>
+            <a href="#">Web Design</a>
+            <a href="#">Web Development</a>
+            <a href="#">Marketing</a>
+            <a href="#">Product Management</a>
+            <a href="#">Graphic Design</a>
+        </div>
+        <div class="c information d-flex flex-column">
+            <h3>Information</h3>
+            <div class="x-">------</div>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="c contactUs">
+            <h3>Contact Us</h3>
+            <div class="d-flex"></div>
+            <div class="x-">------</div>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-meta'></i></a>
+        </div>
+    <div class="lsep"></div>
     </div>
 </body>
 </html>
-
-

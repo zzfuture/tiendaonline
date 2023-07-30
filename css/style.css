@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* COLORES
+1. ff702a
+2. white
+3. 1e1d2b
+4. black
+5. ffefe8
+6. 2c2b47
+*/
+/* font-family: 'Poppins', sans-serif; */
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.logo {
+    font-size: 35px;
+}
+body{
+    background-color: #1e1d2b;
+}
+.navbar-brand{
+    color: #ff702a
+}
+.navbar-brand:hover {
+    color: rgb(248, 146, 12)
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 112, 42, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 112, 42, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler{
+    border:none;
+    outline:none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.container-fluid{
+    --bs-gutter-x: 10%
+}
+.btnaranja{
+    border-radius: 0;
+    background-color: #ff702a;
+    border: 0;
+}
+.title {
+    color: #ff702a;
+}
+.subtitle {
+    font-size: 45px;
+    color: white;
+}
+
+/* Home */
+.home {
+    padding-top: 100px;
+}
+.home img {
+    width: 400px;
+    height: auto;
+}
+.big {
+    font-size: 80px;
+    color:#ff702a
+}
+.white {
+    color: white
+}
+.sep {
+    padding-top: 350px;
+}
+
+.lsep {
+    padding-top: 300px;
+}
+
+.home button {
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .sep {
+        padding-top: 100px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+    .home {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .home img {
+        width: 60%;
+        margin-left: 0;
+        padding-top: 35px;
+    }
+    .big {
+        font-size: 50px;
+    }
+    .white {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* About */
+.about img {
+    width: 500px;
+    height: auto;
+}
+
+.about p {
+    width: 500px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .about img {
+        width: 60%;
+        margin-left: 0;
+        padding-top: 35px;
+    }
+    .about .title {
+        font-size: 30px;
+    }
+    .white {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .subtitle {
+        font-size: 30px;
+    }
+    .about p {
+        width: 80%;
+        font-size: 20px;
+    }
+}
+
+/* Menu */
+.menu {
+    padding: 30px;
+}
+.menu .cuadrado {
+    height: 270px;
+    width: 270px;
+    background-color: #ffefe8;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.menu img{
+    width: 150px;
+    height: auto;
+}
+.menu .m {
+    margin-top: 80px;
+}
+
+.menu .mTitle {
+    font-size: 25px;
+}
+.menu .mDesctiption {
+    font-size: 18px;
+}
+.menu .mPrice {
+    font-size: 18px;
+    color: #ff702a;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .about img {
+        width: 60%;
+        margin-left: 0;
+        padding-top: 35px;
+    }
+    .about .title {
+        font-size: 30px;
+    }
+    .menu .m {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .menu .cuadrado {
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .subtitle {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+/* Menu */
+.services {
+    padding: 30px;
+}
+
+.services img{
+    width: 150px;
+    height: auto;
+}
+.services .m {
+    margin-top: 80px;
+}
+.services .serv {
+    margin-left: 60px;
+}
+.services .mTitle {
+    font-size: 25px;
+    color: #ff702a;
+}
+.services .mDesctiption {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+.services .mPrice {
+    font-size: 18px;
+    color: #ff702a;
+}
+
+@media screen and (max-width: 768px) {
+    .about img {
+        width: 60%;
+        margin-left: 0;
+        padding-top: 35px;
+    }
+    .about .title {
+        font-size: 30px;
+    }
+    .services .s {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .services .serv {
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .subtitle {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.learnMore {
+    width: 70%;
+    height: 100px;
+    background-color: #ffefe8;
+    padding: 180px;
+}
+.learnMore div {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+@media screen and (max-width: 768px) {
+    .learnMore {
+        width: 600px;
+        height: 300px;
+        font-size: 35px;
+    }
+    .learnMore div {
+        margin-bottom: 55px;
+        width: 400px;
+        text-align: center;
+        font-size: 35px;
+    }
+}
+.contact {
+    color: white;
+    padding-bottom: 10px;
+}
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.c {
+    height: 100px;
+    width: 300px;
+}
+
+.x- {
+    color: #ff702a;
+}
+.contact i {
+    font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .c {
+        margin-bottom: 200px;
+    }
+}
