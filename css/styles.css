@@ -1,34 +1,4 @@
-/* .a, .b, .c {
-    height: 100vh;
-    width: 33%; 
-    overflow: auto; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* @media screen and (max-width: 1025px) {
-    .main {
-        display: flex;
-        flex-direction: column;
-    }
-    .a, .b, .c {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        overflow: visible;
-        flex-direction: column;
-        align-items: center;
-    }
-    p{
-        width: 50vw;
-    }
-    .img {
-        width: 25%;
-    }
-} */
-
 /* COLORES
 1. ff702a
 2. white
@@ -37,9 +7,7 @@
 5. ffefe8
 6. 2c2b47
 */
-
-/* fuentes font-family: 'Poppins', sans-serif; */
-
+/* font-family: 'Poppins', sans-serif; */
 *{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -69,17 +37,52 @@ body{
 .navbar-toggler:focus {
     box-shadow: none;
 }
-
 .container-fluid{
-    --bs-gutter-x: 8%
+    --bs-gutter-x: 10%
 }
 
+.home {
+    padding-top: 100px;
+}
+.home img {
+    width: 400px;
+    height: auto;
+}
+.big {
+    font-size: 80px;
+    color:#ff702a
+}
+.white {
+    color: white
+}
 
 @media screen and (max-width: 768px) {
-    *{
-        font-size: 20px;
-    }
     .logo {
-        font-size: 20px;
+        font-size: 35px;
     }
+    .home {
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .home img {
+        width: 60%;
+        margin-left: 0;
+        padding-top: 35px;
+    }
+    .big {
+        font-size: 50px;
+    }
+    .white {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.btnaranja{
+    border-radius: 0;
+    background-color: #ff702a;
+    border: 0;
 }
