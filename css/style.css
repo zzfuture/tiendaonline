@@ -280,8 +280,8 @@ body{
 }
 @media screen and (max-width: 768px) {
     .learnMore {
-        width: 70vw;
-        height: 300px;
+        width: 90vw;
+        height: 50vw;
         font-size: 35px;
     }
     .learnMore div {
@@ -319,4 +319,8 @@ body{
     .c {
         margin-bottom: 200px;
     }
+}
+
+.c {
+    margin-bottom: 200px;
 }
