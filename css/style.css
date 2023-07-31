@@ -268,7 +268,7 @@ body{
 }
 
 .learnMore {
-    width: 70%;
+    width: 70vw;
     height: 100px;
     background-color: #ffefe8;
     padding: 180px;
@@ -280,7 +280,7 @@ body{
 }
 @media screen and (max-width: 768px) {
     .learnMore {
-        width: 600px;
+        width: 70vw;
         height: 300px;
         font-size: 35px;
     }
